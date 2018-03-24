@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+
+# Distribution / packaging
+.Python
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# Data
+*.rar
+*.zip
+
+# specific for project
+.src/data/
+
+
+# don't git migrations, log files and local_settings
+*migrations/*
+!*migrations/__init__.py
+*.log
+
+# Skip data folders
+jupyter/
+data/0_input
+data/1_raw
+data/2_preprocessed
+data/3_output
+data/archive
+
+# Distribution / packaging
+.idea/
+.idea
+*.idea
+env/
+venv/
+.DS_Store
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# data
+sh.exe.stackdump
+
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version

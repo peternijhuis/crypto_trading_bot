@@ -1,0 +1,10 @@
+1. Create a virtual env for you project (you can create it in a dedicated virtual env folder "_virtualenvs" in you python projects folder)
+2. Create a repository for you project. In the root folder of your project type:
+	git init
+3. Start creating content and scripts in your project
+4. Add files:
+	git add file.py			// add specific file
+	git add .    			// adds all files not added
+5. Commit files. (You can first check the changes: git status )
+	git commit -m "Description of the change - when creating a new project: Initial commit for example"  		// the descriptions helps you to understand the change for the future you ;)
+6. 	
