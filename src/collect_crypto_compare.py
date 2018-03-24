@@ -7,7 +7,7 @@ import requests
 import sys
 
 # locate the root folder
-root_folder_project = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+root_folder_project = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # add the root folder to sys path, this way the different modules can be imported by terminal!
 sys.path.insert(1, root_folder_project)
 
