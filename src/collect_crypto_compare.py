@@ -8,7 +8,7 @@ import sys
 
 # locate the root folder
 root_folder_project = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# add the root folder to sys path, this way the different modules can be imported by terminal!
+# add the root folder to sys path, this way the different modules can be imported by Unix!
 sys.path.insert(1, root_folder_project)
 
 from src.settings import RAW_DATA
